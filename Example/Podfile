@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RARotaryWheel_Example' do
+  pod 'RARotaryWheel', :path => '../'
+
+  target 'RARotaryWheel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
