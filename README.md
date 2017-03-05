@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/RARotaryWheel.svg?style=flat)](http://cocoapods.org/pods/RARotaryWheel)
 [![Platform](https://img.shields.io/cocoapods/p/RARotaryWheel.svg?style=flat)](http://cocoapods.org/pods/RARotaryWheel)
 
+RARotaryWheel is a subclass of UIView, which let you able to draw wheel (circle) with dynamic number of segmentsprotocols. (iPhone, iPad, iOS)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,8 +22,11 @@ pod "RARotaryWheel"
 
 ## Author
 
-rashed, rashed.al-lahaseh@apprikot.com
+Rashed Al-Lahaseh, rallahaseh@gmail.com
 
 ## License
 
 RARotaryWheel is available under the MIT license. See the LICENSE file for more info.
+
+## Sample Screenshot
+![alt tag](http://oi63.tinypic.com/2eclmax.jpg)
