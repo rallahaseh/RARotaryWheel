@@ -8,6 +8,18 @@
 
 @import UIKit;
 
-@interface RAViewController : UIViewController
+#import "RAWheel.h"
+#import "RAWheelOverlayView.h"
+
+@interface RAViewController : UIViewController <RAWheelDelegate, RAWheelDataSource> {
+    NSMutableArray *wheelSectorsData;
+}
+
+@property (nonatomic ,retain) RAWheel *wheel;
+@property (nonatomic ,retain) RAWheelOverlayView *wheelOverlay;
+    
+@property (strong, nonatomic) IBOutlet UIView *contentView;
+    
+@property (strong, nonatomic) IBOutlet UIButton *spinningWheelButton;
 
 @end
